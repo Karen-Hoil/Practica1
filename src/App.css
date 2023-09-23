@@ -1,0 +1,85 @@
+.titulo{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-left: 300px;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px black;
+}
+.principal{
+    background-color: rgb(165, 66, 66);
+    width: 100%;
+    display:inline-flex;
+}
+.usuario{
+    margin-left: 250px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    margin-top: 40px;
+    
+}
+.logo{
+    color: white;
+}
+.toggle{
+    margin-top: 40px;
+    margin-left: 60px;
+    padding-top: 10px;
+
+}
+.menuPrin{
+    background-color: rgb(165, 66, 66);
+    width: 15%;
+    height: 100vh;    
+}
+.nomMenu{
+    margin-top: 0;
+    padding-left: 50px;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 4px black;
+    font-size: 20px;
+}
+.inimenu{
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    margin-left: 10px;
+    color: white;
+}
+.logoIni{
+    color: white;
+    margin-left: 30px;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+/* VARIABLES */
+
+:root {
+    --azul-opacidad: rgb(204, 189, 138);
+}
+/* ENLACES MENU */
+
+.menu .enlace {
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.menu .enlace:hover {
+    background: var(--azul-opacidad);
+}
+.inimenu:hover{
+    color: black;
+}
+.logoIni:hover{
+    color: black;
+}

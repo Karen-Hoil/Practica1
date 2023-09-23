@@ -1,0 +1,71 @@
+
+:root {
+    --blanco: #E0E0E0;
+    --azul-opacidad: rgb(204, 189, 138);
+    --bg-menu: #003053;
+    --bg-body: #C7E1FF;
+}
+
+.menu-dashboard {
+    max-width: 150px;
+    height: 100vh;
+    background: var(--bg-menu);
+    padding: 20px;
+    transition: max-width .3s ease;
+}
+
+.top-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-menu .toggle {
+    width: 30px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.top-menu .logo {
+    display: flex;
+    align-items: center;
+}
+
+.top-menu .logo span {
+    font-size: 20px;
+    margin-left: 20px;
+    display: none;
+}
+
+.menu .enlace span {
+    opacity: 0;
+    transition: opacity .3s ease;
+}
+
+.menu-dashboard.open {
+    max-width: 300px;
+}
+
+.menu-dashboard.open .top-menu .logo span {
+    display: block;
+}
+
+.menu-dashboard.open .input-search
+.menu-dashboard.open .menu .enlace {
+    width: auto;
+}
+
+.menu-dashboard.open .input-search .input {
+    display: block;
+}
+
+.menu-dashboard.open .menu .enlace {
+    padding: 20px;
+}
+
+.menu-dashboard.open .menu .enlace span {
+    opacity: 1;
+}

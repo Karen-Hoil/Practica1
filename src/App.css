@@ -1,3 +1,14 @@
+.dashboard{
+    background-image: url(img/KndL.gif);
+    background-color: #1a2b48bd;
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+    margin: 0;
+
+
+}
 .titulo{
     padding-top: 10px;
     padding-bottom: 15px;
@@ -10,7 +21,7 @@
     text-shadow: 2px 2px 4px black;
 }
 .principal{
-    background-color: rgb(165, 66, 66);
+    background-color: rgb(92, 120, 214);
     width: 100%;
     display:inline-flex;
 }
@@ -20,6 +31,11 @@
     padding-top: 10px;
     margin-top: 40px;
     
+}
+.logoClima{
+    color: rgb(221, 205, 111);
+    position: relative;
+    top: -20px;
 }
 .logo{
     color: white;
@@ -31,7 +47,7 @@
 
 }
 .menuPrin{
-    background-color: rgb(165, 66, 66);
+    background-color: rgb(92, 120, 214);
     width: 15%;
     height: 100vh;    
 }
@@ -51,6 +67,8 @@
     font-size: 20px;
     margin-left: 10px;
     color: white;
+    text-decoration: none; 
+    /* no se le pudo quitar la linea */
 }
 .logoIni{
     color: white;

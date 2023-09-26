@@ -5,6 +5,7 @@ function Home(){
     return(
         <>
         <Header/>
+        <h1>Coneccion de APIs</h1>
         </>
     )
 }

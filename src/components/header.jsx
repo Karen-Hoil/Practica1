@@ -4,8 +4,6 @@ import { Link } from 'react-router-dom';
 function Header (){
     return(
         <>
-        <div className="fondoOpaco">
-        <div className="dashboard">
             <div className='principal'>
                 <div className="top-menu">
             <div className="toggle">
@@ -27,15 +25,19 @@ function Header (){
       <div className="menuPrin">
         <h4 className="nomMenu">Menú</h4>
         <div className="menu">
+        <div className="enlace">
+                <Link to="/" className="logoIni"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+  <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"/>
+</svg></Link>
+                <Link to="/"><h6 className="inimenu">Inicio</h6></Link>
+            </div>
             <div className="enlace">
-                <Link to="/Home" className="logoIni"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-brightness-alt-low" viewBox="0 0 16 16">
+                <Link to="/condicionAdmosferica" className="logoIni"><svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-brightness-alt-low" viewBox="0 0 16 16">
   <path d="M8.5 5.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm5 6a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zM2 11a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0zm10.243-3.536a.5.5 0 1 1-.707-.707.5.5 0 0 1 .707.707zm-8.486-.707a.5.5 0 1 0 .707.707.5.5 0 0 0-.707-.707zM8 7a4 4 0 0 0-4 4 .5.5 0 0 0 .5.5h7a.5.5 0 0 0 .5-.5 4 4 0 0 0-4-4zm0 1a3 3 0 0 1 2.959 2.5H5.04A3 3 0 0 1 8 8z"/>
 </svg></Link>
-                <Link to="/Home"><h6 className="inimenu">Inicio</h6></Link>
+                <Link to="/condicionAdmosferica"><h6 className="inimenu">Clima</h6></Link>
             </div>
         </div>
-      </div>
-      </div>
       </div>
         </>
     )

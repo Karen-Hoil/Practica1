@@ -24,10 +24,21 @@
 .Bienvenida{
     position: absolute;
     color: white;
-    font-size: 100px;
-    top: 200px;
-    left: 500px;
+    font-size: 40px;
+    top: 150px;
+    left: 300px;
     text-shadow: 2px 2px 4px black;
+    text-align: center;
+}
+.Integrantes{
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    top: 250px;
+    left: 580px;
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+    font-weight: bold;
 }
 .titulo{
     padding-top: 25px;

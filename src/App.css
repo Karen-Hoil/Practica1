@@ -2,10 +2,15 @@
     background-image: url(img/KndL.gif);
     background-color: #162a4dd3;
     background-blend-mode: soft-light;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
     background-size: cover;
     padding: 0px;
     margin: 0;
+}
+
+.scroll{
+    overflow: scroll;
+    height: 200px ;
 }
 .dashboard1{
     background-image: url(img/Perfect\ Loops\ GIF\ -\ Find\ &\ Share\ on\ GIPHY.gif);
@@ -124,4 +129,7 @@
     position: absolute;
     top: 150px;
     left: 300px;
+}
+.blockEstados{
+    width: 77%;
 }

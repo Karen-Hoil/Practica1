@@ -77,7 +77,7 @@ function CondicionAdmosferica(){
               ) : estadoActual ? (
                 <>
                   <h5 className="card-title">Estado seleccionado: {estadoActual}</h5>
-                  <div>
+                  <div className="scroll">
                     {ciudadesDelEstado.length > 0 ? (
                       ciudadesDelEstado.map((ciudad, index) => (
                         <div key={index}>
